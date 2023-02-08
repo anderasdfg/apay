@@ -1,0 +1,14 @@
+@font-face {
+  font-display: fallback;
+  font-family: "Poppins";
+  src: url("../public/fonts/Poppins-Regular.otf") format("truetype");
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.App {
+    display: flex;   
+    font-family: "Poppins", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI';     
+}
