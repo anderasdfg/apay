@@ -4,11 +4,24 @@
   src: url("../public/fonts/Poppins-Regular.otf") format("truetype");
 }
 
+@font-face {
+  font-display: fallback;
+  font-family: "Poppins-Bold";
+  src: url("../public/fonts/Poppins-Bold.otf") format("truetype");
+}
+
+@font-face {
+  font-display: fallback;
+  font-family: "Capuche";
+  src: url("../public/fonts/Capuche-Trial.otf") format("truetype");
+}
+
 html {
   scroll-behavior: smooth;
 }
 
-.App {
+/* .App {
     display: flex;   
+    flex-direction: column;
     font-family: "Poppins", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI';     
-}
+} */

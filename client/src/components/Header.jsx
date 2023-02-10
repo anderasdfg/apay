@@ -4,12 +4,14 @@ import cart from "../assets/icons/cart.svg"
 import user from "../assets/icons/user-profile.svg"
 import search from "../assets/icons/search.svg"
 
+import { Link } from "react-router-dom";
+
 const Header = () => {
     return (
         <div className="header">
-            <div className="">
+            <Link className="" to="/">
                 <img src={logo} alt="Logo" />                
-            </div>                        
+            </Link>                        
             <div className="header__item header__navbar">
                 <nav className="navbar">
                     <div className="navbar__title">Productos</div>
@@ -17,7 +19,7 @@ const Header = () => {
                     <div className="navbar__title">Nosotros</div>
                 </nav>                                   
             </div>
-            <div class="header__item">
+            <div className="header__item">
                 <div className="search__wrapper">
                     <input className= "search__input" type="text" />
                     <img src={search} className="search__input-icon" alt="" />
